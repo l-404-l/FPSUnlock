@@ -23,7 +23,6 @@ namespace FPSUnlock
             Config.LoadConfig();
             Application.targetFrameRate = Config.CFG.TargetedFPS;
 
-            //New Age - Delegates lol // thanks for the help khan understanding this.
             Il2CppSystem.Delegate test = (Il2CppSystem.Action<bool>)new Action<bool>(x =>
             {
                 if (x)
@@ -36,14 +35,8 @@ namespace FPSUnlock
                 }
             });
 
-            //Insane how long this line is LOL;
             Application.focusChanged = Il2CppSystem.Delegate.Combine(Application.focusChanged, test).Cast<Il2CppSystem.Action<bool>>();
 
-        }
-
-        public override void OnUpdate()
-        {
-            Console.WriteLine(Application.targetFrameRate);
         }
     }
 }
