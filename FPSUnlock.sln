@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPSUnlock", "FPSUnlock\FPSUnlock.csproj", "{E714D2C3-D68C-4CD1-AFAD-85335E429FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E714D2C3-D68C-4CD1-AFAD-85335E429FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E714D2C3-D68C-4CD1-AFAD-85335E429FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E714D2C3-D68C-4CD1-AFAD-85335E429FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E714D2C3-D68C-4CD1-AFAD-85335E429FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE16B5A-7425-47F5-B058-9596173BD978}
+	EndGlobalSection
+EndGlobal
